@@ -37,7 +37,7 @@ body {
 #message a {
     display: block;
     text-align: center;
-    background: #039be5;
+    background: #00e498;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
@@ -87,4 +87,11 @@ div#videos > video {
     height: 100%;
     display: block;
     margin: 1em;
+}
+button,.mdc-button{
+    background-color: rgb(0, 230, 122);
+}
+#cameraBtn:enabled,#createBtn:enabled,#joinBtn:enabled,#hangupBtn:enabled{
+    background-color: rgb(1, 185, 99);
+
 }
